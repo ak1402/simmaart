@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { Corousel } from '../shared/carousal';
-import Goldreich1 from '../images/Goldreich1.webp';
-import Goldreich2 from '../images/Goldreich2.webp';
-import Goldreich3 from '../images/Goldreich3.webp';
-import Goldreich4 from '../images/Goldreich4.webp';
-import Goldreich5 from '../images/Goldreich5.webp';
-import Goldreich6 from '../images/Goldreich6.webp';
+import Goldreich1 from '../images/Goldreich1.jpg';
+import Goldreich2 from '../images/Goldreich2.jpg';
+import Goldreich3 from '../images/Goldreich3.jpg';
+import Goldreich4 from '../images/Goldreich4.jpg';
+import Goldreich5 from '../images/Goldreich5.jpg';
+import Goldreich6 from '../images/Goldreich6.jpg';
 
-const images = require.context("../images", false, /.*\.webp$/);
 export const Home = (props) => {      
     return (      
         <div>  
